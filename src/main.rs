@@ -12,4 +12,10 @@ fn main() {
     println!("Day 02 Part 01 Solution:\t{}", day_02_p1);
     let day_02_p2 = days::day_02::day_02_solution_p2(&day_02_input);
     println!("Day 02 Part 02 Solution:\t{}", day_02_p2);
+
+    let day_03_input = std::fs::read_to_string("./inputs/day_03.in").unwrap();
+    let day_03_p1 = days::day_03::day_03_solution_p1(&day_03_input);
+    println!("Day 03 Part 01 Solution:\t{}", day_03_p1);
+    let day_03_p2 = days::day_03::day_03_solution_p2(&day_03_input);
+    println!("Day 03 Part 02 Solution:\t{}", day_03_p2);
 }
